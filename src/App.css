@@ -1,0 +1,42 @@
+
+
+.form-container{
+   max-width: 600px;
+   border:0.3px solid rgba(11, 5, 10, 0.126);
+   margin: 20px auto;
+   padding: 10px;
+   background-color: #fff;
+   text-align: center;
+   border-radius: 10px;
+}
+
+
+.card-list {
+  max-width: 600px;
+  margin: 20px auto;
+}
+.card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-body .btn {
+  margin-right: 10px;
+}
+
+.comment-box-open{
+  display: block;
+}
+.comment-box-hide{
+  display: none;
+}

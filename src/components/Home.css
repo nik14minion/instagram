@@ -1,0 +1,109 @@
+/* Navbar.css */
+
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #dbdbdb;
+    width:100vw;
+    
+  }
+  
+  .navbar__logo img {
+    height: 30px;
+  }
+  
+  .navbar__search input {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background-color: #fafafa;
+  }
+  
+  .navbar__icons i {
+    font-size: 24px;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
+  .navbar__icons i:hover {
+    color: #8e8e8e;
+  }
+  
+
+  .left__items {
+    margin-right: 80px;
+  }
+
+
+  /* PostCard.css */
+
+.post-card {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .post-card__header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .post-card__avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .post-card__username {
+    font-weight: bold;
+  }
+  
+  .post-card__image {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+  }
+  
+  .post-card__footer {
+    padding: 10px;
+  }
+  
+  .post-card__actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .post-card__actions i {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .post-card__likes {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .post-card__caption,
+  .post-card__comments {
+    margin-bottom: 10px;
+  }
+  
+  .post-card__comment strong {
+    margin-right: 5px;
+  }
+  
+
+  
